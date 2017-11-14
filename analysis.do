@@ -1,16 +1,16 @@
-				/* Busara Data Analysis Script
+				/*  Analysis Script
 					John Lunalo
 					14 Oct, 2017
 				*/
 
 *Setting up
 set more off 
-log using  "F:\Busara_data _task_Oct2017\dofiles\analysis_12", text replace
+log using  "F:\stata_git\practice\Stata-codes\task\dofiles\analysis_12.log", text replace
 clear all
 
 **********************Declaring directories to work from****************************************************************************************************************************
 	#delimit ;
-	global wkdir "F:\Busara_data _task_Oct2017" ; global dofil "$wkdir\dofiles" ; global rawdata "$wkdir\raw_data" ; global adm "$wkdir\adm" ; global output "$wkdir\output" ;
+	global wkdir "F:\stata_git\practice\Stata-codes\task" ; global dofil "$wkdir\dofiles" ; global rawdata "$wkdir\raw_data" ; global adm "$wkdir\adm" ; global output "$wkdir\output" ;
 	#delimit cr
 	
 **************************************************************Loading datasets******************************************************************************************************	
